@@ -46,7 +46,7 @@
             }
         }
         
-        create_file_link("start");
+        create_file_link(".");
         // echo "end";
        
     ?>
