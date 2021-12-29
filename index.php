@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <style>
+        body {
+            font-size: 1.6rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            line-height: 1.5;
+            height: 800px;
+        }
+        div {
+            max-width: 350px;
+        }
+    </style>
 </head>
 <body>
     <?php
@@ -27,7 +40,7 @@
                 if (is_dir($next)) {
                     create_file_link($next);
                 } else {
-                    echo "<li><a href=\"$next\">$next</a></li>";
+                    echo "<div><a href=\"$next\">$next</a></div>";
                 }
             }
         }
