@@ -11,6 +11,7 @@
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+            align-content: flex-start;
             line-height: 1.5;
             height: 800px;
         }
